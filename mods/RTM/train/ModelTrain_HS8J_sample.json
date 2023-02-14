@@ -1,0 +1,243 @@
+{
+  "trainName": "HS8J_sample",
+  "trainType": "DC",
+  "tags": "HKN",
+  "trainModel2": {
+    "modelFile": "HS8J/Tele-Liner.mqo",
+    "textures": [
+      [
+        "mat2",
+        "textures/train/HS8J/int.png",
+        ""
+      ],
+      [
+        "mat3",
+        "textures/train/HS8J/body.png",
+        "AlphaBlend"
+      ]
+    ]
+  },
+  "bogieModel2": {
+    "modelFile": "ModelBogie.class",
+    "textures": [
+      [
+        "default",
+        "textures/train/bogie.png"
+      ]
+    ]
+  },
+  "buttonTexture": "textures/train/(BASETEX)TTK+10/button_TTK+10.png",
+  "rollsignTexture": "textures/train/(BASETEX)TTK+10/rollsign.png",
+  "rollsignNames": [
+    "1_TTK",
+    "2_Out_of_Service",
+    "3_Test_Run",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "rollsigns": [
+    {
+      "uv": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "pos": [
+        [
+          [
+            0.8158,
+            2.3421,
+            4.5000
+          ],
+          [
+            0.8158,
+            2.1316,
+            4.5300
+          ],
+          [
+            0.1316,
+            2.1316,
+            4.5300
+          ],
+          [
+            0.1316,
+            2.3421,
+            4.5000
+          ]
+        ],
+        [
+          [
+            1.39,
+            2.3158,
+            -0.7895
+          ],
+          [
+            1.39,
+            2.1053,
+            -0.7895
+          ],
+          [
+            1.39,
+            2.1053,
+            -0.1053
+          ],
+          [
+            1.39,
+            2.3158,
+            -0.1053
+          ]
+        ],
+        [
+          [
+            -1.39,
+            2.3158,
+            -0.1053
+          ],
+          [
+            -1.39,
+            2.1053,
+            -0.1053
+          ],
+          [
+            -1.39,
+            2.1053,
+            -0.7895
+          ],
+          [
+            -1.39,
+            2.3158,
+            -0.7895
+          ]
+        ]
+      ],
+      "doAnimation": true,
+      "disableLighting": false
+    }
+  ],
+  "soundScriptPath": "scripts/sound_223.js",
+  "sound_BrakeRelease": "train.rtm_223_release",
+  "sound_BrakeRelease2": "train.brakeR_w",
+  "sound_Horn": "train.rtm_wh_00l",
+  "sound_DoorOpen": "train.door",
+  "sound_DoorClose": "train.door",
+  "slotPos": [
+    [
+      0.8,
+      0,
+      4.0,
+      2
+    ],
+    [
+      0.8,
+      0,
+      2.4,
+      2
+    ],
+    [
+      0.8,
+      0,
+      0.8,
+      2
+    ],
+    [
+      0.8,
+      0,
+      -0.8,
+      2
+    ],
+    [
+      0.8,
+      0,
+      -2.4,
+      2
+    ],
+    [
+      0.8,
+      0,
+      -4.0,
+      2
+    ],
+    [
+      -0.8,
+      0,
+      4.0,
+      2
+    ],
+    [
+      -0.8,
+      0,
+      2.4,
+      2
+    ],
+    [
+      -0.8,
+      0,
+      0.8,
+      2
+    ],
+    [
+      -0.8,
+      0,
+      -0.8,
+      2
+    ],
+    [
+      -0.8,
+      0,
+      -2.4,
+      2
+    ],
+    [
+      -0.8,
+      0,
+      -4.0,
+      2
+    ]
+  ],
+  "interiorLights": [
+    {
+      "pos": [
+        0.0,
+        2.5,
+        2.0
+      ]
+    },
+    {
+      "pos": [
+        0.0,
+        2.5,
+        -2.0
+      ]
+    }
+  ],
+  "smoothing": true,
+  "playerPos": [
+    [
+      0.85,
+      0.2,
+      3.95
+    ],
+    [
+      -0.85,
+      0.2,
+      -3.95
+    ]
+  ],
+  "bogiePos": [
+    [
+      0.0,
+      0.0,
+      2.25
+    ],
+    [
+      0.0,
+      0.0,
+      -2.25
+    ]
+  ],
+  "trainDistance": 5.0
+}
